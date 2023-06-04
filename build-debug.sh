@@ -1,0 +1,1 @@
+cmake -B build/ -D CMAKE_INSTALL_PREFIX=$HOME/kde/usr && cmake --build build/ && cmake --install build/ && source build/prefix.sh && kate
