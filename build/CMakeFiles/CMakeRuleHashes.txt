@@ -1,0 +1,5 @@
+# Hashes of file build rules.
+9ad57287a52e3eeb3a7f419d8eff0517 CMakeFiles/fetch-translations
+7001c889f242cbd44928dc4060c1bfb7 CMakeFiles/markdownpandocpreview_autogen
+658d4b12228b540d878829f03396777c CMakeFiles/uninstall
+bb171068cd71ea4710c2135cc2794c6b releaseme

@@ -1,0 +1,11 @@
+/home/tubbadu/code/kate-plugin/markdown-preview/build/CMakeFiles/uninstall.dir
+/home/tubbadu/code/kate-plugin/markdown-preview/build/CMakeFiles/fetch-translations.dir
+/home/tubbadu/code/kate-plugin/markdown-preview/build/CMakeFiles/markdownpandocpreview.dir
+/home/tubbadu/code/kate-plugin/markdown-preview/build/CMakeFiles/test.dir
+/home/tubbadu/code/kate-plugin/markdown-preview/build/CMakeFiles/edit_cache.dir
+/home/tubbadu/code/kate-plugin/markdown-preview/build/CMakeFiles/rebuild_cache.dir
+/home/tubbadu/code/kate-plugin/markdown-preview/build/CMakeFiles/list_install_components.dir
+/home/tubbadu/code/kate-plugin/markdown-preview/build/CMakeFiles/install.dir
+/home/tubbadu/code/kate-plugin/markdown-preview/build/CMakeFiles/install/local.dir
+/home/tubbadu/code/kate-plugin/markdown-preview/build/CMakeFiles/install/strip.dir
+/home/tubbadu/code/kate-plugin/markdown-preview/build/CMakeFiles/markdownpandocpreview_autogen.dir
