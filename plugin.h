@@ -11,6 +11,11 @@
 #include <QLabel>
 #include <QWebEngineView>
 #include <QDir>
+#include <QHBoxLayout>
+#include <QIcon>
+#include <QDebug>
+#include <QTextEdit>
+#include <QFileInfo>
 
 #include <KParts/Part>
 #include <KParts/ReadOnlyPart>
@@ -18,6 +23,8 @@
 #include <KPluginLoader>
 #include <KAboutData>
 #include <KLocalizedString>
+
+
 
 
 

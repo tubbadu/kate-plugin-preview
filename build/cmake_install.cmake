@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/usr")
+  set(CMAKE_INSTALL_PREFIX "/home/tubbadu/kde/usr")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,17 +43,21 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "katelivepreview" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib64/qt5/plugins/ktexteditor/katelivepreview.so" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib64/qt5/plugins/ktexteditor/katelivepreview.so")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib64/plugins/ktexteditor/katelivepreview.so" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib64/plugins/ktexteditor/katelivepreview.so")
     file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib64/qt5/plugins/ktexteditor/katelivepreview.so"
-         RPATH "")
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib64/plugins/ktexteditor/katelivepreview.so"
+         RPATH "/home/tubbadu/kde/usr/lib64")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib64/qt5/plugins/ktexteditor" TYPE MODULE FILES "/home/tubbadu/code/kate-plugin/markdown-preview/build/katelivepreview.so")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib64/qt5/plugins/ktexteditor/katelivepreview.so" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib64/qt5/plugins/ktexteditor/katelivepreview.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib64/plugins/ktexteditor" TYPE MODULE FILES "/home/tubbadu/code/kate-plugin/markdown-preview/build/katelivepreview.so")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib64/plugins/ktexteditor/katelivepreview.so" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib64/plugins/ktexteditor/katelivepreview.so")
+    file(RPATH_CHANGE
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib64/plugins/ktexteditor/katelivepreview.so"
+         OLD_RPATH ":::::::::::::::::::::::::::"
+         NEW_RPATH "/home/tubbadu/kde/usr/lib64")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib64/qt5/plugins/ktexteditor/katelivepreview.so")
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib64/plugins/ktexteditor/katelivepreview.so")
     endif()
   endif()
 endif()

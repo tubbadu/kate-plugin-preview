@@ -293,6 +293,7 @@
   /usr/include/qt5/QtCore/QDebug \
   /usr/include/qt5/QtCore/QDir \
   /usr/include/qt5/QtCore/QExplicitlySharedDataPointer \
+  /usr/include/qt5/QtCore/QFileInfo \
   /usr/include/qt5/QtCore/QFlags \
   /usr/include/qt5/QtCore/QHash \
   /usr/include/qt5/QtCore/QJsonObject \
@@ -398,6 +399,7 @@
   /usr/include/qt5/QtCore/qvector.h \
   /usr/include/qt5/QtCore/qversiontagging.h \
   /usr/include/qt5/QtGui/QColor \
+  /usr/include/qt5/QtGui/QIcon \
   /usr/include/qt5/QtGui/QTextFormat \
   /usr/include/qt5/QtGui/qbrush.h \
   /usr/include/qt5/QtGui/qcolor.h \
@@ -405,6 +407,7 @@
   /usr/include/qt5/QtGui/qfont.h \
   /usr/include/qt5/QtGui/qfontinfo.h \
   /usr/include/qt5/QtGui/qfontmetrics.h \
+  /usr/include/qt5/QtGui/qicon.h \
   /usr/include/qt5/QtGui/qimage.h \
   /usr/include/qt5/QtGui/qkeysequence.h \
   /usr/include/qt5/QtGui/qmatrix.h \
@@ -420,6 +423,8 @@
   /usr/include/qt5/QtGui/qregion.h \
   /usr/include/qt5/QtGui/qrgb.h \
   /usr/include/qt5/QtGui/qrgba64.h \
+  /usr/include/qt5/QtGui/qtextcursor.h \
+  /usr/include/qt5/QtGui/qtextdocument.h \
   /usr/include/qt5/QtGui/qtextformat.h \
   /usr/include/qt5/QtGui/qtextoption.h \
   /usr/include/qt5/QtGui/qtgui-config.h \
@@ -450,11 +455,19 @@
   /usr/include/qt5/QtWebEngineWidgets/qwebenginedownloaditem.h \
   /usr/include/qt5/QtWebEngineWidgets/qwebenginepage.h \
   /usr/include/qt5/QtWebEngineWidgets/qwebengineview.h \
+  /usr/include/qt5/QtWidgets/QHBoxLayout \
   /usr/include/qt5/QtWidgets/QLabel \
+  /usr/include/qt5/QtWidgets/QTextEdit \
   /usr/include/qt5/QtWidgets/QWidget \
+  /usr/include/qt5/QtWidgets/qabstractscrollarea.h \
+  /usr/include/qt5/QtWidgets/qboxlayout.h \
   /usr/include/qt5/QtWidgets/qframe.h \
+  /usr/include/qt5/QtWidgets/qgridlayout.h \
   /usr/include/qt5/QtWidgets/qlabel.h \
+  /usr/include/qt5/QtWidgets/qlayout.h \
+  /usr/include/qt5/QtWidgets/qlayoutitem.h \
   /usr/include/qt5/QtWidgets/qsizepolicy.h \
+  /usr/include/qt5/QtWidgets/qtextedit.h \
   /usr/include/qt5/QtWidgets/qtwidgets-config.h \
   /usr/include/qt5/QtWidgets/qtwidgetsglobal.h \
   /usr/include/qt5/QtWidgets/qwidget.h \

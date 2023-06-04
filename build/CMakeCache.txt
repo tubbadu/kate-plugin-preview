@@ -116,8 +116,8 @@ CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=
 //Value Computed by CMake.
 CMAKE_FIND_PACKAGE_REDIRECTS_DIR:STATIC=/home/tubbadu/code/kate-plugin/markdown-preview/build/CMakeFiles/pkgRedirects
 
-//Install path prefix
-CMAKE_INSTALL_PREFIX:PATH=/usr
+//Install path prefix, prepended onto install directories.
+CMAKE_INSTALL_PREFIX:PATH=/home/tubbadu/kde/usr
 
 //Path to a program.
 CMAKE_LINKER:FILEPATH=/usr/bin/ld
@@ -375,24 +375,24 @@ KDE_INSTALL_MIMEDIR:PATH=
 //Plugins (QTPLUGINDIR)
 KDE_INSTALL_PLUGINDIR:PATH=
 
-//Installs /usr/prefix.sh that sets up the necessary environment
-// variables
+//Installs /home/tubbadu/kde/usr/prefix.sh that sets up the necessary
+// environment variables
 KDE_INSTALL_PREFIX_SCRIPT:BOOL=OFF
 
 //documentation bundles in QCH format (DATAROOTDIR/doc/qch)
 KDE_INSTALL_QCHDIR:PATH=
 
-//QtQuick2 imports (lib64/qt5/qml)
+//QtQuick2 imports (LIBDIR/qml)
 KDE_INSTALL_QMLDIR:PATH=
 
-//Qt plugins (lib64/qt5/plugins)
+//Qt plugins (LIBDIR/plugins)
 KDE_INSTALL_QTPLUGINDIR:PATH=
 
 //documentation bundles in QCH format for Qt-extending libraries
-// (/usr/share/doc/qt5)
+// (DATAROOTDIR/doc/qch)
 KDE_INSTALL_QTQCHDIR:PATH=
 
-//QtQuick1 imports (lib64/qt5/imports)
+//QtQuick1 imports (QTPLUGINDIR/imports)
 KDE_INSTALL_QTQUICKIMPORTSDIR:PATH=
 
 //system admin executables (EXECROOTDIR/sbin)
@@ -404,7 +404,7 @@ KDE_INSTALL_SHAREDSTATEDIR:PATH=
 //sound files (DATAROOTDIR/sounds)
 KDE_INSTALL_SOUNDDIR:PATH=
 
-//read-only single-machine data (/etc)
+//read-only single-machine data (etc)
 KDE_INSTALL_SYSCONFDIR:PATH=
 
 //Systemd units (CMAKE_INSTALL_PREFIX/lib/systemd)
@@ -418,7 +418,7 @@ KDE_INSTALL_TEMPLATEDIR:PATH=
 
 //Install mkspecs files, QCH files for Qt-based libs, Plugins and
 // Imports to the Qt 5 install dir
-KDE_INSTALL_USE_QT_SYS_PATHS:BOOL=ON
+KDE_INSTALL_USE_QT_SYS_PATHS:BOOL=OFF
 
 //desktop wallpaper images (DATAROOTDIR/wallpapers)
 KDE_INSTALL_WALLPAPERDIR:PATH=

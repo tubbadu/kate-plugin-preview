@@ -1,14 +1,5 @@
 #include "plugin.h"
 
-#include <KLocalizedString>
-#include <KPluginFactory>
-#include <QHBoxLayout>
-#include <QIcon>
-#include <QDebug>
-#include <QTextEdit>
-#include <QCoreApplication>
-#include <QFileInfo>
-
 K_PLUGIN_FACTORY_WITH_JSON(KateLivePreviewPluginFactory, "plugin.json", registerPlugin<KateLivePreviewPlugin>();)
 
 QObject *KateLivePreviewPlugin::createView(KTextEditor::MainWindow *mainWindow)
@@ -26,8 +17,6 @@ KateLivePreviewPluginView::KateLivePreviewPluginView(KateLivePreviewPlugin *plug
 		QIcon::fromTheme("preview"),
 		i18n("Markdown Preview xxx") // Name of the toolview
 	));
-
-	//QCoreApplication::setAttribute(Qt::AA_ShareOpenGLContexts);
 
 	connect(m_mainWindow, &KTextEditor::MainWindow::viewChanged, this, &KateLivePreviewPluginView::onViewChanged);
 	m_msg = new QLabel(m_toolview.get());

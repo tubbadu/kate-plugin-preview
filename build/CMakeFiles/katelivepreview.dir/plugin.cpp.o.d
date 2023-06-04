@@ -314,7 +314,19 @@ CMakeFiles/katelivepreview.dir/plugin.cpp.o: \
  /usr/include/qt5/QtCore/qurl.h /usr/include/qt5/QtGui/qpagelayout.h \
  /usr/include/qt5/QtGui/qpagesize.h /usr/include/qt5/QtCore/QDir \
  /usr/include/qt5/QtCore/qdir.h /usr/include/qt5/QtCore/qfileinfo.h \
- /usr/include/KF5/KParts/KParts/Part \
+ /usr/include/qt5/QtWidgets/QHBoxLayout \
+ /usr/include/qt5/QtWidgets/qboxlayout.h \
+ /usr/include/qt5/QtWidgets/qlayout.h \
+ /usr/include/qt5/QtWidgets/qlayoutitem.h \
+ /usr/include/qt5/QtWidgets/qboxlayout.h \
+ /usr/include/qt5/QtWidgets/qgridlayout.h /usr/include/qt5/QtGui/QIcon \
+ /usr/include/qt5/QtGui/qicon.h /usr/include/qt5/QtWidgets/QTextEdit \
+ /usr/include/qt5/QtWidgets/qtextedit.h \
+ /usr/include/qt5/QtWidgets/qabstractscrollarea.h \
+ /usr/include/qt5/QtGui/qtextdocument.h \
+ /usr/include/qt5/QtGui/qtextcursor.h \
+ /usr/include/qt5/QtGui/qtextformat.h /usr/include/qt5/QtCore/QFileInfo \
+ /usr/include/qt5/QtCore/qfileinfo.h /usr/include/KF5/KParts/KParts/Part \
  /usr/include/KF5/KParts/KParts/ReadOnlyPart \
  /usr/include/KF5/KCoreAddons/KPluginFactory \
  /usr/include/KF5/KCoreAddons/kpluginfactory.h \
@@ -349,21 +361,4 @@ CMakeFiles/katelivepreview.dir/plugin.cpp.o: \
  /usr/include/KF5/KI18n/kuitsetup.h /usr/include/qt5/QtCore/QHash \
  /usr/include/qt5/QtCore/qhash.h \
  /usr/include/KF5/KI18n/klocalizedcontext.h \
- /usr/include/qt5/QtWidgets/QHBoxLayout \
- /usr/include/qt5/QtWidgets/qboxlayout.h \
- /usr/include/qt5/QtWidgets/qlayout.h \
- /usr/include/qt5/QtWidgets/qlayoutitem.h \
- /usr/include/qt5/QtWidgets/qboxlayout.h \
- /usr/include/qt5/QtWidgets/qgridlayout.h /usr/include/qt5/QtGui/QIcon \
- /usr/include/qt5/QtGui/qicon.h /usr/include/qt5/QtWidgets/QTextEdit \
- /usr/include/qt5/QtWidgets/qtextedit.h \
- /usr/include/qt5/QtWidgets/qabstractscrollarea.h \
- /usr/include/qt5/QtGui/qtextdocument.h \
- /usr/include/qt5/QtGui/qtextcursor.h \
- /usr/include/qt5/QtGui/qtextformat.h \
- /usr/include/qt5/QtCore/QCoreApplication \
- /usr/include/qt5/QtCore/qcoreapplication.h \
- /usr/include/qt5/QtCore/qcoreevent.h \
- /usr/include/qt5/QtCore/qeventloop.h /usr/include/qt5/QtCore/QFileInfo \
- /usr/include/qt5/QtCore/qfileinfo.h \
  /home/tubbadu/code/kate-plugin/markdown-preview/build/katelivepreview_autogen/include/plugin.moc

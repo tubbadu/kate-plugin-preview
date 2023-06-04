@@ -292,7 +292,6 @@
   /usr/include/locale.h \
   /usr/include/pthread.h \
   /usr/include/qt5/QtCore/QChar \
-  /usr/include/qt5/QtCore/QCoreApplication \
   /usr/include/qt5/QtCore/QDebug \
   /usr/include/qt5/QtCore/QDir \
   /usr/include/qt5/QtCore/QExplicitlySharedDataPointer \
@@ -334,14 +333,11 @@
   /usr/include/qt5/QtCore/qcontainerfwd.h \
   /usr/include/qt5/QtCore/qcontainertools_impl.h \
   /usr/include/qt5/QtCore/qcontiguouscache.h \
-  /usr/include/qt5/QtCore/qcoreapplication.h \
-  /usr/include/qt5/QtCore/qcoreevent.h \
   /usr/include/qt5/QtCore/qcryptographichash.h \
   /usr/include/qt5/QtCore/qdatastream.h \
   /usr/include/qt5/QtCore/qdatetime.h \
   /usr/include/qt5/QtCore/qdebug.h \
   /usr/include/qt5/QtCore/qdir.h \
-  /usr/include/qt5/QtCore/qeventloop.h \
   /usr/include/qt5/QtCore/qfile.h \
   /usr/include/qt5/QtCore/qfiledevice.h \
   /usr/include/qt5/QtCore/qfileinfo.h \
