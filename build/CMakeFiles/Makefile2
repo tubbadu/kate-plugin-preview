@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /home/tubbadu/code/kate-plugin/markdown-preview/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/markdownpandocpreview.dir/all
+all: CMakeFiles/katelivepreview.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -73,8 +73,8 @@ preinstall:
 # The main recursive "clean" target.
 clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/fetch-translations.dir/clean
-clean: CMakeFiles/markdownpandocpreview.dir/clean
-clean: CMakeFiles/markdownpandocpreview_autogen.dir/clean
+clean: CMakeFiles/katelivepreview.dir/clean
+clean: CMakeFiles/katelivepreview_autogen.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -130,56 +130,56 @@ CMakeFiles/fetch-translations.dir/clean:
 .PHONY : CMakeFiles/fetch-translations.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/markdownpandocpreview.dir
+# Target rules for target CMakeFiles/katelivepreview.dir
 
 # All Build rule for target.
-CMakeFiles/markdownpandocpreview.dir/all: CMakeFiles/markdownpandocpreview_autogen.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/markdownpandocpreview.dir/build.make CMakeFiles/markdownpandocpreview.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/markdownpandocpreview.dir/build.make CMakeFiles/markdownpandocpreview.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tubbadu/code/kate-plugin/markdown-preview/build/CMakeFiles --progress-num=3,4,5 "Built target markdownpandocpreview"
-.PHONY : CMakeFiles/markdownpandocpreview.dir/all
+CMakeFiles/katelivepreview.dir/all: CMakeFiles/katelivepreview_autogen.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/katelivepreview.dir/build.make CMakeFiles/katelivepreview.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/katelivepreview.dir/build.make CMakeFiles/katelivepreview.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tubbadu/code/kate-plugin/markdown-preview/build/CMakeFiles --progress-num=3,4,5 "Built target katelivepreview"
+.PHONY : CMakeFiles/katelivepreview.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/markdownpandocpreview.dir/rule: cmake_check_build_system
+CMakeFiles/katelivepreview.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/tubbadu/code/kate-plugin/markdown-preview/build/CMakeFiles 4
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/markdownpandocpreview.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/katelivepreview.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/tubbadu/code/kate-plugin/markdown-preview/build/CMakeFiles 0
-.PHONY : CMakeFiles/markdownpandocpreview.dir/rule
+.PHONY : CMakeFiles/katelivepreview.dir/rule
 
 # Convenience name for target.
-markdownpandocpreview: CMakeFiles/markdownpandocpreview.dir/rule
-.PHONY : markdownpandocpreview
+katelivepreview: CMakeFiles/katelivepreview.dir/rule
+.PHONY : katelivepreview
 
 # clean rule for target.
-CMakeFiles/markdownpandocpreview.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/markdownpandocpreview.dir/build.make CMakeFiles/markdownpandocpreview.dir/clean
-.PHONY : CMakeFiles/markdownpandocpreview.dir/clean
+CMakeFiles/katelivepreview.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/katelivepreview.dir/build.make CMakeFiles/katelivepreview.dir/clean
+.PHONY : CMakeFiles/katelivepreview.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/markdownpandocpreview_autogen.dir
+# Target rules for target CMakeFiles/katelivepreview_autogen.dir
 
 # All Build rule for target.
-CMakeFiles/markdownpandocpreview_autogen.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/markdownpandocpreview_autogen.dir/build.make CMakeFiles/markdownpandocpreview_autogen.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/markdownpandocpreview_autogen.dir/build.make CMakeFiles/markdownpandocpreview_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tubbadu/code/kate-plugin/markdown-preview/build/CMakeFiles --progress-num=6 "Built target markdownpandocpreview_autogen"
-.PHONY : CMakeFiles/markdownpandocpreview_autogen.dir/all
+CMakeFiles/katelivepreview_autogen.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/katelivepreview_autogen.dir/build.make CMakeFiles/katelivepreview_autogen.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/katelivepreview_autogen.dir/build.make CMakeFiles/katelivepreview_autogen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tubbadu/code/kate-plugin/markdown-preview/build/CMakeFiles --progress-num=6 "Built target katelivepreview_autogen"
+.PHONY : CMakeFiles/katelivepreview_autogen.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/markdownpandocpreview_autogen.dir/rule: cmake_check_build_system
+CMakeFiles/katelivepreview_autogen.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/tubbadu/code/kate-plugin/markdown-preview/build/CMakeFiles 1
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/markdownpandocpreview_autogen.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/katelivepreview_autogen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/tubbadu/code/kate-plugin/markdown-preview/build/CMakeFiles 0
-.PHONY : CMakeFiles/markdownpandocpreview_autogen.dir/rule
+.PHONY : CMakeFiles/katelivepreview_autogen.dir/rule
 
 # Convenience name for target.
-markdownpandocpreview_autogen: CMakeFiles/markdownpandocpreview_autogen.dir/rule
-.PHONY : markdownpandocpreview_autogen
+katelivepreview_autogen: CMakeFiles/katelivepreview_autogen.dir/rule
+.PHONY : katelivepreview_autogen
 
 # clean rule for target.
-CMakeFiles/markdownpandocpreview_autogen.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/markdownpandocpreview_autogen.dir/build.make CMakeFiles/markdownpandocpreview_autogen.dir/clean
-.PHONY : CMakeFiles/markdownpandocpreview_autogen.dir/clean
+CMakeFiles/katelivepreview_autogen.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/katelivepreview_autogen.dir/build.make CMakeFiles/katelivepreview_autogen.dir/clean
+.PHONY : CMakeFiles/katelivepreview_autogen.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

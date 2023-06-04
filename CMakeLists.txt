@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.16)
-project(markdownpandocpreview VERSION 1.0)
+project(katelivepreview VERSION 1.0)
 
 find_package(ECM ${KF5_DEP_VERSION} QUIET REQUIRED NO_MODULE)
 
@@ -20,20 +20,20 @@ find_package(KF5 ${KF5_DEP_VERSION}
 )
 
 # This line defines the actual target
-kcoreaddons_add_plugin(markdownpandocpreview # your plugin name here
+kcoreaddons_add_plugin(katelivepreview # your plugin name here
     INSTALL_NAMESPACE "ktexteditor")
 
 target_sources(
-  markdownpandocpreview
+  katelivepreview
   PRIVATE
   plugin.h
   plugin.cpp
 )
 
 # This makes the plugin translatable
-target_compile_definitions(markdownpandocpreview PRIVATE TRANSLATION_DOMAIN="markdownpandocpreview")
+target_compile_definitions(katelivepreview PRIVATE TRANSLATION_DOMAIN="katelivepreview")
 
-target_link_libraries(markdownpandocpreview
+target_link_libraries(katelivepreview
     PRIVATE
     KF5::CoreAddons
     KF5::I18n

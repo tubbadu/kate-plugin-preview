@@ -97,7 +97,7 @@ rebuild_cache/fast: rebuild_cache
 
 # Special rule for the target list_install_components
 list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"markdownpandocpreview\""
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"katelivepreview\""
 .PHONY : list_install_components
 
 # Special rule for the target list_install_components
@@ -198,61 +198,61 @@ fetch-translations/fast:
 .PHONY : fetch-translations/fast
 
 #=============================================================================
-# Target rules for targets named markdownpandocpreview
+# Target rules for targets named katelivepreview
 
 # Build rule for target.
-markdownpandocpreview: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 markdownpandocpreview
-.PHONY : markdownpandocpreview
+katelivepreview: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 katelivepreview
+.PHONY : katelivepreview
 
 # fast build rule for target.
-markdownpandocpreview/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/markdownpandocpreview.dir/build.make CMakeFiles/markdownpandocpreview.dir/build
-.PHONY : markdownpandocpreview/fast
+katelivepreview/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/katelivepreview.dir/build.make CMakeFiles/katelivepreview.dir/build
+.PHONY : katelivepreview/fast
 
 #=============================================================================
-# Target rules for targets named markdownpandocpreview_autogen
+# Target rules for targets named katelivepreview_autogen
 
 # Build rule for target.
-markdownpandocpreview_autogen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 markdownpandocpreview_autogen
-.PHONY : markdownpandocpreview_autogen
+katelivepreview_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 katelivepreview_autogen
+.PHONY : katelivepreview_autogen
 
 # fast build rule for target.
-markdownpandocpreview_autogen/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/markdownpandocpreview_autogen.dir/build.make CMakeFiles/markdownpandocpreview_autogen.dir/build
-.PHONY : markdownpandocpreview_autogen/fast
+katelivepreview_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/katelivepreview_autogen.dir/build.make CMakeFiles/katelivepreview_autogen.dir/build
+.PHONY : katelivepreview_autogen/fast
 
-markdownpandocpreview_autogen/mocs_compilation.o: markdownpandocpreview_autogen/mocs_compilation.cpp.o
-.PHONY : markdownpandocpreview_autogen/mocs_compilation.o
+katelivepreview_autogen/mocs_compilation.o: katelivepreview_autogen/mocs_compilation.cpp.o
+.PHONY : katelivepreview_autogen/mocs_compilation.o
 
 # target to build an object file
-markdownpandocpreview_autogen/mocs_compilation.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/markdownpandocpreview.dir/build.make CMakeFiles/markdownpandocpreview.dir/markdownpandocpreview_autogen/mocs_compilation.cpp.o
-.PHONY : markdownpandocpreview_autogen/mocs_compilation.cpp.o
+katelivepreview_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/katelivepreview.dir/build.make CMakeFiles/katelivepreview.dir/katelivepreview_autogen/mocs_compilation.cpp.o
+.PHONY : katelivepreview_autogen/mocs_compilation.cpp.o
 
-markdownpandocpreview_autogen/mocs_compilation.i: markdownpandocpreview_autogen/mocs_compilation.cpp.i
-.PHONY : markdownpandocpreview_autogen/mocs_compilation.i
+katelivepreview_autogen/mocs_compilation.i: katelivepreview_autogen/mocs_compilation.cpp.i
+.PHONY : katelivepreview_autogen/mocs_compilation.i
 
 # target to preprocess a source file
-markdownpandocpreview_autogen/mocs_compilation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/markdownpandocpreview.dir/build.make CMakeFiles/markdownpandocpreview.dir/markdownpandocpreview_autogen/mocs_compilation.cpp.i
-.PHONY : markdownpandocpreview_autogen/mocs_compilation.cpp.i
+katelivepreview_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/katelivepreview.dir/build.make CMakeFiles/katelivepreview.dir/katelivepreview_autogen/mocs_compilation.cpp.i
+.PHONY : katelivepreview_autogen/mocs_compilation.cpp.i
 
-markdownpandocpreview_autogen/mocs_compilation.s: markdownpandocpreview_autogen/mocs_compilation.cpp.s
-.PHONY : markdownpandocpreview_autogen/mocs_compilation.s
+katelivepreview_autogen/mocs_compilation.s: katelivepreview_autogen/mocs_compilation.cpp.s
+.PHONY : katelivepreview_autogen/mocs_compilation.s
 
 # target to generate assembly for a file
-markdownpandocpreview_autogen/mocs_compilation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/markdownpandocpreview.dir/build.make CMakeFiles/markdownpandocpreview.dir/markdownpandocpreview_autogen/mocs_compilation.cpp.s
-.PHONY : markdownpandocpreview_autogen/mocs_compilation.cpp.s
+katelivepreview_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/katelivepreview.dir/build.make CMakeFiles/katelivepreview.dir/katelivepreview_autogen/mocs_compilation.cpp.s
+.PHONY : katelivepreview_autogen/mocs_compilation.cpp.s
 
 plugin.o: plugin.cpp.o
 .PHONY : plugin.o
 
 # target to build an object file
 plugin.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/markdownpandocpreview.dir/build.make CMakeFiles/markdownpandocpreview.dir/plugin.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/katelivepreview.dir/build.make CMakeFiles/katelivepreview.dir/plugin.cpp.o
 .PHONY : plugin.cpp.o
 
 plugin.i: plugin.cpp.i
@@ -260,7 +260,7 @@ plugin.i: plugin.cpp.i
 
 # target to preprocess a source file
 plugin.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/markdownpandocpreview.dir/build.make CMakeFiles/markdownpandocpreview.dir/plugin.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/katelivepreview.dir/build.make CMakeFiles/katelivepreview.dir/plugin.cpp.i
 .PHONY : plugin.cpp.i
 
 plugin.s: plugin.cpp.s
@@ -268,7 +268,7 @@ plugin.s: plugin.cpp.s
 
 # target to generate assembly for a file
 plugin.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/markdownpandocpreview.dir/build.make CMakeFiles/markdownpandocpreview.dir/plugin.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/katelivepreview.dir/build.make CMakeFiles/katelivepreview.dir/plugin.cpp.s
 .PHONY : plugin.cpp.s
 
 # Help Target
@@ -285,12 +285,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... fetch-translations"
-	@echo "... markdownpandocpreview_autogen"
+	@echo "... katelivepreview_autogen"
 	@echo "... uninstall"
-	@echo "... markdownpandocpreview"
-	@echo "... markdownpandocpreview_autogen/mocs_compilation.o"
-	@echo "... markdownpandocpreview_autogen/mocs_compilation.i"
-	@echo "... markdownpandocpreview_autogen/mocs_compilation.s"
+	@echo "... katelivepreview"
+	@echo "... katelivepreview_autogen/mocs_compilation.o"
+	@echo "... katelivepreview_autogen/mocs_compilation.i"
+	@echo "... katelivepreview_autogen/mocs_compilation.s"
 	@echo "... plugin.o"
 	@echo "... plugin.i"
 	@echo "... plugin.s"

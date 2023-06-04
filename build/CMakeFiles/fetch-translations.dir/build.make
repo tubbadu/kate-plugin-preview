@@ -67,11 +67,11 @@ include CMakeFiles/fetch-translations.dir/compiler_depend.make
 include CMakeFiles/fetch-translations.dir/progress.make
 
 CMakeFiles/fetch-translations: releaseme
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tubbadu/code/kate-plugin/markdown-preview/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Downloading translations for markdownpandocpreview branch trunk..."
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tubbadu/code/kate-plugin/markdown-preview/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Downloading translations for katelivepreview branch trunk..."
 	git -C /home/tubbadu/code/kate-plugin/markdown-preview/build/releaseme pull
 	cmake -E remove_directory /home/tubbadu/code/kate-plugin/markdown-preview/build/po
 	cmake -E remove_directory /home/tubbadu/code/kate-plugin/markdown-preview/build/poqm
-	ruby /home/tubbadu/code/kate-plugin/markdown-preview/build/releaseme/fetchpo.rb --origin trunk --project markdownpandocpreview --output-dir /home/tubbadu/code/kate-plugin/markdown-preview/build/po --output-poqm-dir /home/tubbadu/code/kate-plugin/markdown-preview/build/poqm /home/tubbadu/code/kate-plugin/markdown-preview
+	ruby /home/tubbadu/code/kate-plugin/markdown-preview/build/releaseme/fetchpo.rb --origin trunk --project katelivepreview --output-dir /home/tubbadu/code/kate-plugin/markdown-preview/build/po --output-poqm-dir /home/tubbadu/code/kate-plugin/markdown-preview/build/poqm /home/tubbadu/code/kate-plugin/markdown-preview
 
 releaseme:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tubbadu/code/kate-plugin/markdown-preview/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Fetching releaseme scripts to download translations..."

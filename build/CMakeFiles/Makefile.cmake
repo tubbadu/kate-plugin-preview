@@ -267,7 +267,7 @@ set(CMAKE_MAKEFILE_OUTPUTS
 set(CMAKE_MAKEFILE_PRODUCTS
   "prefix.sh"
   "ecm_uninstall.cmake"
-  "CMakeFiles/markdownpandocpreview_autogen.dir/AutogenInfo.json"
+  "CMakeFiles/katelivepreview_autogen.dir/AutogenInfo.json"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
@@ -275,6 +275,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/uninstall.dir/DependInfo.cmake"
   "CMakeFiles/fetch-translations.dir/DependInfo.cmake"
-  "CMakeFiles/markdownpandocpreview.dir/DependInfo.cmake"
-  "CMakeFiles/markdownpandocpreview_autogen.dir/DependInfo.cmake"
+  "CMakeFiles/katelivepreview.dir/DependInfo.cmake"
+  "CMakeFiles/katelivepreview_autogen.dir/DependInfo.cmake"
   )

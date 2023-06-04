@@ -1,0 +1,275 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'plugin.cpp'
+**
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.15.9)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include <memory>
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
+#include <QtCore/qplugin.h>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'plugin.cpp' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 67
+#error "This file was generated using the moc from 5.15.9. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+struct qt_meta_stringdata_KateLivePreviewPluginFactory_t {
+    QByteArrayData data[1];
+    char stringdata0[29];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_KateLivePreviewPluginFactory_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_KateLivePreviewPluginFactory_t qt_meta_stringdata_KateLivePreviewPluginFactory = {
+    {
+QT_MOC_LITERAL(0, 0, 28) // "KateLivePreviewPluginFactory"
+
+    },
+    "KateLivePreviewPluginFactory"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_KateLivePreviewPluginFactory[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+void KateLivePreviewPluginFactory::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    (void)_o;
+    (void)_id;
+    (void)_c;
+    (void)_a;
+}
+
+QT_INIT_METAOBJECT const QMetaObject KateLivePreviewPluginFactory::staticMetaObject = { {
+    QMetaObject::SuperData::link<KPluginFactory::staticMetaObject>(),
+    qt_meta_stringdata_KateLivePreviewPluginFactory.data,
+    qt_meta_data_KateLivePreviewPluginFactory,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *KateLivePreviewPluginFactory::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *KateLivePreviewPluginFactory::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_KateLivePreviewPluginFactory.stringdata0))
+        return static_cast<void*>(this);
+    if (!strcmp(_clname, "org.kde.KPluginFactory"))
+        return static_cast< KPluginFactory*>(this);
+    return KPluginFactory::qt_metacast(_clname);
+}
+
+int KateLivePreviewPluginFactory::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = KPluginFactory::qt_metacall(_c, _id, _a);
+    return _id;
+}
+
+QT_PLUGIN_METADATA_SECTION
+static constexpr unsigned char qt_pluginMetaData[] = {
+    'Q', 'T', 'M', 'E', 'T', 'A', 'D', 'A', 'T', 'A', ' ', '!',
+    // metadata version, Qt version, architectural requirements
+    0, QT_VERSION_MAJOR, QT_VERSION_MINOR, qPluginArchRequirements(),
+    0xbf, 
+    // "IID"
+    0x02,  0x76,  'o',  'r',  'g',  '.',  'k',  'd', 
+    'e',  '.',  'K',  'P',  'l',  'u',  'g',  'i', 
+    'n',  'F',  'a',  'c',  't',  'o',  'r',  'y', 
+    // "className"
+    0x03,  0x78,  0x1c,  'K',  'a',  't',  'e',  'L', 
+    'i',  'v',  'e',  'P',  'r',  'e',  'v',  'i', 
+    'e',  'w',  'P',  'l',  'u',  'g',  'i',  'n', 
+    'F',  'a',  'c',  't',  'o',  'r',  'y', 
+    // "MetaData"
+    0x04,  0xa1,  0x67,  'K',  'P',  'l',  'u',  'g', 
+    'i',  'n',  0xb8,  0x1a,  0x6b,  'D',  'e',  's', 
+    'c',  'r',  'i',  'p',  't',  'i',  'o',  'n', 
+    0x78,  0x1e,  'L',  'i',  'v',  'e',  ' ',  'p', 
+    'r',  'e',  'v',  'i',  'e',  'w',  ' ',  'f', 
+    'o',  'r',  ' ',  'v',  'a',  'r',  'i',  'o', 
+    'u',  's',  ' ',  'f',  'i',  'l',  'e',  's', 
+    0x6f,  'D',  'e',  's',  'c',  'r',  'i',  'p', 
+    't',  'i',  'o',  'n',  '[',  'c',  'a',  ']', 
+    0x78,  0x30,  'V',  'i',  's',  't',  'a',  ' ', 
+    'p',  'r',  uchar('\xc3'), uchar('\xa8'), 'v',  'i',  'a',  ' ', 
+    'e',  'n',  ' ',  'd',  'i',  'r',  'e',  'c', 
+    't',  'e',  ' ',  'p',  'e',  'r',  ' ',  'a', 
+    ' ',  'd',  'i',  'f',  'e',  'r',  'e',  'n', 
+    't',  's',  ' ',  'f',  'i',  't',  'x',  'e', 
+    'r',  's',  0x6f,  'D',  'e',  's',  'c',  'r', 
+    'i',  'p',  't',  'i',  'o',  'n',  '[',  'c', 
+    's',  ']',  0x78,  0x22,  uchar('\xc5'), uchar('\xbd'), 'i',  'v', 
+    uchar('\xc3'), uchar('\xbd'), ' ',  'n',  uchar('\xc3'), uchar('\xa1'), 'h',  'l', 
+    'e',  'd',  ' ',  'p',  'r',  'o',  ' ',  'r', 
+    uchar('\xc5'), uchar('\xaf'), 'z',  'n',  uchar('\xc3'), uchar('\xa9'), ' ',  's', 
+    'o',  'u',  'b',  'o',  'r',  'y',  0x6f,  'D', 
+    'e',  's',  'c',  'r',  'i',  'p',  't',  'i', 
+    'o',  'n',  '[',  'e',  's',  ']',  0x78,  0x2e, 
+    'V',  'i',  's',  't',  'a',  ' ',  'p',  'r', 
+    'e',  'v',  'i',  'a',  ' ',  'e',  'n',  ' ', 
+    't',  'i',  'e',  'm',  'p',  'o',  ' ',  'r', 
+    'e',  'a',  'l',  ' ',  'd',  'e',  ' ',  'v', 
+    'a',  'r',  'i',  'o',  's',  ' ',  'a',  'r', 
+    'c',  'h',  'i',  'v',  'o',  's',  0x6f,  'D', 
+    'e',  's',  'c',  'r',  'i',  'p',  't',  'i', 
+    'o',  'n',  '[',  'f',  'i',  ']',  0x78,  0x25, 
+    'T',  'i',  'e',  'd',  'o',  's',  't',  'o', 
+    'j',  'e',  'n',  ' ',  'r',  'e',  'a',  'a', 
+    'l',  'i',  'a',  'i',  'k',  'a',  'i',  'n', 
+    'e',  'n',  ' ',  'e',  's',  'i',  'k',  'a', 
+    't',  's',  'e',  'l',  'u',  0x6f,  'D',  'e', 
+    's',  'c',  'r',  'i',  'p',  't',  'i',  'o', 
+    'n',  '[',  'f',  'r',  ']',  0x78,  0x24,  'A', 
+    'p',  'e',  'r',  uchar('\xc3'), uchar('\xa7'), 'u',  ' ',  'e', 
+    'n',  ' ',  'd',  'i',  'r',  'e',  'c',  't', 
+    ' ',  'd',  'e',  ' ',  'f',  'i',  'c',  'h', 
+    'i',  'e',  'r',  's',  ' ',  'd',  'i',  'v', 
+    'e',  'r',  's',  0x6f,  'D',  'e',  's',  'c', 
+    'r',  'i',  'p',  't',  'i',  'o',  'n',  '[', 
+    'i',  't',  ']',  0x78,  0x26,  'A',  'n',  't', 
+    'e',  'p',  'r',  'i',  'm',  'a',  ' ',  'i', 
+    'n',  ' ',  't',  'e',  'm',  'p',  'o',  ' ', 
+    'r',  'e',  'a',  'l',  'e',  ' ',  'p',  'e', 
+    'r',  ' ',  'v',  'a',  'r',  'i',  ' ',  'f', 
+    'i',  'l',  'e',  0x6f,  'D',  'e',  's',  'c', 
+    'r',  'i',  'p',  't',  'i',  'o',  'n',  '[', 
+    'n',  'l',  ']',  0x78,  0x2a,  'L',  'i',  'v', 
+    'e',  ' ',  'v',  'o',  'o',  'r',  'b',  'e', 
+    'e',  'l',  'd',  ' ',  'v',  'a',  'n',  ' ', 
+    'v',  'e',  'r',  's',  'c',  'h',  'i',  'l', 
+    'l',  'e',  'n',  'd',  'e',  ' ',  'b',  'e', 
+    's',  't',  'a',  'n',  'd',  'e',  'n',  0x6f, 
+    'D',  'e',  's',  'c',  'r',  'i',  'p',  't', 
+    'i',  'o',  'n',  '[',  'p',  't',  ']',  0x78, 
+    0x2c,  'V',  'i',  's',  'u',  'a',  'l',  'i', 
+    'z',  'a',  uchar('\xc3'), uchar('\xa7'), uchar('\xc3'), uchar('\xa3'), 'o',  ' ', 
+    'a',  'o',  ' ',  'v',  'i',  'v',  'o',  ' ', 
+    'p',  'a',  'r',  'a',  ' ',  'v',  uchar('\xc3'), uchar('\xa1'),
+    'r',  'i',  'o',  's',  ' ',  'a',  'r',  'q', 
+    'u',  'i',  'v',  'o',  's',  0x6f,  'D',  'e', 
+    's',  'c',  'r',  'i',  'p',  't',  'i',  'o', 
+    'n',  '[',  's',  'l',  ']',  0x78,  0x27,  'V', 
+    ' ',  uchar('\xc5'), uchar('\xbe'), 'i',  'v',  'o',  ' ',  'p', 
+    'r',  'i',  'k',  'a',  'z',  'o',  'v',  'a', 
+    'n',  'j',  'e',  ' ',  'r',  'a',  'z',  'l', 
+    'i',  uchar('\xc4'), uchar('\x8d'), 'n',  'i',  'h',  ' ',  'd', 
+    'a',  't',  'o',  't',  'e',  'k',  0x6f,  'D', 
+    'e',  's',  'c',  'r',  'i',  'p',  't',  'i', 
+    'o',  'n',  '[',  't',  'r',  ']',  0x78,  0x29, 
+    uchar('\xc3'), uchar('\x87'), 'e',  uchar('\xc5'), uchar('\x9f'), 'i',  't',  'l', 
+    'i',  ' ',  'd',  'o',  's',  'y',  'a',  'l', 
+    'a',  'r',  ' ',  'i',  uchar('\xc3'), uchar('\xa7'), 'i',  'n', 
+    ' ',  'c',  'a',  'n',  'l',  uchar('\xc4'), uchar('\xb1'), ' ', 
+    uchar('\xc3'), uchar('\xb6'), 'n',  'i',  'z',  'l',  'e',  'm', 
+    'e',  0x6f,  'D',  'e',  's',  'c',  'r',  'i', 
+    'p',  't',  'i',  'o',  'n',  '[',  'u',  'k', 
+    ']',  0x78,  0x3c,  uchar('\xd0'), uchar('\x96'), uchar('\xd0'), uchar('\xb8'), uchar('\xd0'),
+    uchar('\xb2'), uchar('\xd0'), uchar('\xb8'), uchar('\xd0'), uchar('\xb9'), ' ',  uchar('\xd0'), uchar('\xbf'),
+    uchar('\xd0'), uchar('\xb5'), uchar('\xd1'), uchar('\x80'), uchar('\xd0'), uchar('\xb5'), uchar('\xd0'), uchar('\xb3'),
+    uchar('\xd0'), uchar('\xbb'), uchar('\xd1'), uchar('\x8f'), uchar('\xd0'), uchar('\xb4'), ' ',  uchar('\xd0'),
+    uchar('\xb4'), uchar('\xd0'), uchar('\xbb'), uchar('\xd1'), uchar('\x8f'), ' ',  uchar('\xd1'), uchar('\x80'),
+    uchar('\xd1'), uchar('\x96'), uchar('\xd0'), uchar('\xb7'), uchar('\xd0'), uchar('\xbd'), uchar('\xd0'), uchar('\xb8'),
+    uchar('\xd1'), uchar('\x85'), ' ',  uchar('\xd1'), uchar('\x84'), uchar('\xd0'), uchar('\xb0'), uchar('\xd0'),
+    uchar('\xb9'), uchar('\xd0'), uchar('\xbb'), uchar('\xd1'), uchar('\x96'), uchar('\xd0'), uchar('\xb2'), 0x73, 
+    'D',  'e',  's',  'c',  'r',  'i',  'p',  't', 
+    'i',  'o',  'n',  '[',  'x',  '-',  't',  'e', 
+    's',  't',  ']',  0x78,  0x22,  'x',  'x',  'L', 
+    'i',  'v',  'e',  ' ',  'p',  'r',  'e',  'v', 
+    'i',  'e',  'w',  ' ',  'f',  'o',  'r',  ' ', 
+    'v',  'a',  'r',  'i',  'o',  'u',  's',  ' ', 
+    'f',  'i',  'l',  'e',  's',  'x',  'x',  0x64, 
+    'N',  'a',  'm',  'e',  0x71,  'K',  'a',  't', 
+    'e',  ' ',  'l',  'i',  'v',  'e',  ' ',  'p', 
+    'r',  'e',  'v',  'i',  'e',  'w',  0x68,  'N', 
+    'a',  'm',  'e',  '[',  'c',  'a',  ']',  0x78, 
+    0x1f,  'P',  'r',  'e',  'v',  'i',  's',  'u', 
+    'a',  'l',  'i',  't',  'z',  'a',  'd',  'o', 
+    'r',  ' ',  'e',  'n',  ' ',  'v',  'i',  'u', 
+    ' ',  'd',  'e',  ' ',  'K',  'a',  't',  'e', 
+    0x68,  'N',  'a',  'm',  'e',  '[',  'c',  's', 
+    ']',  0x75,  uchar('\xc5'), uchar('\xbd'), 'i',  'v',  uchar('\xc3'), uchar('\xbd'),
+    ' ',  'n',  uchar('\xc3'), uchar('\xa1'), 'h',  'l',  'e',  'd', 
+    ' ',  'v',  ' ',  'K',  'a',  't',  'e',  0x68, 
+    'N',  'a',  'm',  'e',  '[',  'e',  's',  ']', 
+    0x78,  0x1c,  'V',  'i',  's',  't',  'a',  ' ', 
+    'p',  'r',  'e',  'v',  'i',  'a',  ' ',  'e', 
+    'n',  ' ',  'v',  'i',  'v',  'o',  ' ',  'd', 
+    'e',  ' ',  'K',  'a',  't',  'e',  0x68,  'N', 
+    'a',  'm',  'e',  '[',  'f',  'i',  ']',  0x78, 
+    0x20,  'K',  'a',  't',  'e',  ':',  'n',  ' ', 
+    'r',  'e',  'a',  'a',  'l',  'i',  'a',  'i', 
+    'k',  'a',  'i',  'n',  'e',  'n',  ' ',  'e', 
+    's',  'i',  'k',  'a',  't',  's',  'e',  'l', 
+    'u',  0x68,  'N',  'a',  'm',  'e',  '[',  'f', 
+    'r',  ']',  0x78,  0x19,  'A',  'p',  'e',  'r', 
+    uchar('\xc3'), uchar('\xa7'), 'u',  ' ',  'e',  'n',  ' ',  'd', 
+    'i',  'r',  'e',  'c',  't',  ' ',  'd',  'e', 
+    ' ',  'K',  'a',  't',  'e',  0x68,  'N',  'a', 
+    'm',  'e',  '[',  'i',  't',  ']',  0x78,  0x20, 
+    'A',  'n',  't',  'e',  'p',  'r',  'i',  'm', 
+    'a',  ' ',  'i',  'n',  ' ',  't',  'e',  'm', 
+    'p',  'o',  ' ',  'r',  'e',  'a',  'l',  'e', 
+    ' ',  'd',  'i',  ' ',  'K',  'a',  't',  'e', 
+    0x68,  'N',  'a',  'm',  'e',  '[',  'n',  'l', 
+    ']',  0x77,  'L',  'i',  'v',  'e',  ' ',  'v', 
+    'o',  'o',  'r',  'b',  'e',  'e',  'l',  'd', 
+    ' ',  'v',  'a',  'n',  ' ',  'K',  'a',  't', 
+    'e',  0x68,  'N',  'a',  'm',  'e',  '[',  'p', 
+    't',  ']',  0x78,  0x1e,  'V',  'i',  's',  'u', 
+    'a',  'l',  'i',  'z',  'a',  uchar('\xc3'), uchar('\xa7'), uchar('\xc3'),
+    uchar('\xa3'), 'o',  ' ',  'a',  'o',  ' ',  'v',  'i', 
+    'v',  'o',  ' ',  'd',  'e',  ' ',  'K',  'a', 
+    't',  'e',  0x68,  'N',  'a',  'm',  'e',  '[', 
+    's',  'l',  ']',  0x78,  0x19,  uchar('\xc5'), uchar('\xbd'), 'i', 
+    'v',  'a',  ' ',  'p',  'r',  'e',  'd',  's', 
+    't',  'a',  'v',  'i',  't',  'e',  'v',  ' ', 
+    'v',  ' ',  'K',  'a',  't',  'e',  0x68,  'N', 
+    'a',  'm',  'e',  '[',  't',  'r',  ']',  0x77, 
+    'C',  'a',  'n',  'l',  uchar('\xc4'), uchar('\xb1'), ' ',  'K', 
+    'a',  't',  'e',  ' ',  uchar('\xc3'), uchar('\xb6'), 'n',  'i', 
+    'z',  'l',  'e',  'm',  'e',  's',  'i',  0x68, 
+    'N',  'a',  'm',  'e',  '[',  'u',  'k',  ']', 
+    0x78,  0x23,  uchar('\xd0'), uchar('\x96'), uchar('\xd0'), uchar('\xb8'), uchar('\xd0'), uchar('\xb2'),
+    uchar('\xd0'), uchar('\xb8'), uchar('\xd0'), uchar('\xb9'), ' ',  uchar('\xd0'), uchar('\xbf'), uchar('\xd0'),
+    uchar('\xb5'), uchar('\xd1'), uchar('\x80'), uchar('\xd0'), uchar('\xb5'), uchar('\xd0'), uchar('\xb3'), uchar('\xd0'),
+    uchar('\xbb'), uchar('\xd1'), uchar('\x8f'), uchar('\xd0'), uchar('\xb4'), ' ',  uchar('\xd0'), uchar('\xb2'),
+    ' ',  'K',  'a',  't',  'e',  0x6c,  'N',  'a', 
+    'm',  'e',  '[',  'x',  '-',  't',  'e',  's', 
+    't',  ']',  0x75,  'x',  'x',  'K',  'a',  't', 
+    'e',  ' ',  'l',  'i',  'v',  'e',  ' ',  'p', 
+    'r',  'e',  'v',  'i',  'e',  'w',  'x',  'x', 
+    0xff, 
+};
+QT_MOC_EXPORT_PLUGIN(KateLivePreviewPluginFactory, KateLivePreviewPluginFactory)
+
+QT_WARNING_POP
+QT_END_MOC_NAMESPACE
