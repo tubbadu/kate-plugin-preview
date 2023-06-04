@@ -1,1 +1,0 @@
-/home/tubbadu/kde/usr/lib64/plugins/ktexteditor/katelivepreview.so
