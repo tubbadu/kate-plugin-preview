@@ -12,10 +12,10 @@ KateLivePreviewPluginView::KateLivePreviewPluginView(KateLivePreviewPlugin *plug
 {
 	m_toolview.reset(m_mainWindow->createToolView(
 		plugin, // pointer to plugin
-		"markdownpreviewxxx", // just an identifier
+		"katelivepreview", // just an identifier
 		KTextEditor::MainWindow::Right, // we want to create a toolview on the right side
 		QIcon::fromTheme("preview"),
-		i18n("Markdown Preview xxx") // Name of the toolview
+		i18n("Kate Live Preview") // Name of the toolview
 	));
 
 	connect(m_mainWindow, &KTextEditor::MainWindow::viewChanged, this, &KateLivePreviewPluginView::onViewChanged);
