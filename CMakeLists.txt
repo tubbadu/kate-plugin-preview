@@ -8,6 +8,9 @@ list(APPEND CMAKE_MODULE_PATH ${ECM_MODULE_PATH})
 include(KDEInstallDirs)
 include(KDECMakeSettings)
 
+
+
+
 find_package(Qt${QT_MAJOR_VERSION}Widgets CONFIG REQUIRED)
 find_package(Qt5 REQUIRED COMPONENTS WebEngineWidgets)
 

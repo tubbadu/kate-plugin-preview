@@ -188,4 +188,10 @@ bool KateLivePreviewPluginView::elaborateHtml(QString filename, QString doctype,
 	return true;
 }
 
+
+
+
+
+
+
 #include "plugin.moc"

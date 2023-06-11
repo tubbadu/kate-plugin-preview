@@ -28,7 +28,6 @@
 
 
 
-
 // Forward declare
 class KateLivePreviewPluginView;
 
@@ -64,6 +63,9 @@ public:
 	bool elaborateHtml(QString filename, QString doctype, bool forceReload);
 	void startConversion(QString program, QStringList args);
 	void conversionFinished(int exitCode, QProcess::ExitStatus exitStatus);
+	
+	
+	
 
 private:
 	KTextEditor::MainWindow *m_mainWindow = nullptr;
